@@ -28,12 +28,12 @@
       
       [:tr 
        [:td "SIKKIMILP"]
-       [:td "www.technoidentity.com"]
+       [:td "www.sikkimilp.in"]
        [:td "Technoidentity"]]
 
       [:tr 
        [:td "SNTONLINE"]
-       [:td "www.technoidentity.com"]
+       [:td "www.sntonline.in"]
        [:td "Technoidentity"]]
       [:tr 
        [:td "Cybervillage"]

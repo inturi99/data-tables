@@ -18,7 +18,7 @@
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target" "test/js"]
 
-  :cljsbuild {:builds [{:id "prod"
+  :cljsbuild {:builds [{:id "app"
                         :source-paths ["src/cljs"]
                         :compiler {:output-to "resources/public/js/app.js"
                                    :output-dir "resources/public/js/out"
@@ -26,4 +26,5 @@
                                    :optimizations :none
                                    :asset-path "/static/js/out"
                                    :main "data-Tables.core"
-                                   :pretty-print true}}]})
+                                   :pretty-print true
+                                   :externs ["externs.js"]}}]})
